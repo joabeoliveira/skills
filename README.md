@@ -44,6 +44,20 @@ mkdir -p seu_projeto/.github
 cp Html_JS_CSS/.github/copilot-instructions.md seu_projeto/.github/
 ```
 
+### 1.1 Instalar via npx (direto do GitHub)
+
+Se preferir instalar rapidamente sem clonar o repositório, use `npx` para executar o instalador diretamente do GitHub:
+
+```bash
+# instala copiando os arquivos essenciais para o diretório atual
+npx github:joabeoliveira/skills
+
+# alternativa: explícito via URL
+npx https://github.com/joabeoliveira/skills
+```
+
+Obs: o comando acima executa o `cli.js` presente no repositório e copia os arquivos para `PWD`.
+
 ### 2. Estrutura do Projeto
 
 ```
